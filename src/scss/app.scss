@@ -1,0 +1,22 @@
+@import "reset";
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+div {
+  margin: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  background: white url("/img/tick.png") top no-repeat;
+  padding-top: 100px;
+  color: green;
+}
